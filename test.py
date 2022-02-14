@@ -27,3 +27,6 @@ driver = webdriver.Remote(
 )
 
 driver.swipe(100,100,100,500)
+
+def test_one():
+    assert 1==1
