@@ -6,7 +6,7 @@ desired_cap = {
     "browserstack.key" : "g2w5qYhQYBnCukypqeks",
 
     # Set URL of the application under test
-    "app" : "bs://c80e82a746bde56b2baea1a61417967b917914bf",
+    "app" : "bs://af95ca5ac0ff178d7df7bf0770cd80bfd7db2564",
 
     # Specify device and os_version for testing
     "device" : "Xiaomi Redmi Note 7",
@@ -29,4 +29,4 @@ driver = webdriver.Remote(
 driver.swipe(100,100,100,500)
 
 def test_one():
-    assert 1==1
+    assert 1==12
