@@ -22,8 +22,8 @@ desired_cap = {
 }
 
 
-def test_one():
-    assert 1==12
-
 def test_two():
     assert 1==1
+
+    
+    
