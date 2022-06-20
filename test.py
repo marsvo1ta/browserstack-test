@@ -6,7 +6,7 @@ desired_cap = {
     "browserstack.key" : "g2w5qYhQYBnCukypqeks",
 
     # Set URL of the application under test
-    "app" : "bs://af95ca5ac0ff178d7df7bf0770cd80bfd7db2564",
+    "app" : "app": "bs://a3026cfa929f43641848069d01d4d5b8246dc449",
 
     # Specify device and os_version for testing
     "device" : "Xiaomi Redmi Note 7",
