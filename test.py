@@ -21,12 +21,6 @@ desired_cap = {
     "name" : "first_test"
 }
 
-# driver = webdriver.Remote(
-    command_executor="http://hub-cloud.browserstack.com/wd/hub", 
-    desired_capabilities=desired_cap
-)
-
-# driver.swipe(100,100,100,500)
 
 def test_one():
     assert 1==12
