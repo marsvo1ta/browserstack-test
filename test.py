@@ -1,4 +1,6 @@
 from appium import webdriver
+from appiumbase import BaseCase
+
 
 desired_cap = {
     # Set your access credentials
