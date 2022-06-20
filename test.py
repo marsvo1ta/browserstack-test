@@ -25,5 +25,8 @@ desired_cap = {
 def test_two():
     assert 1==1
 
-    
-    
+def test_bro():
+    driver = webdriver.Remote(
+    command_executor="http://hub-cloud.browserstack.com/wd/hub", 
+    desired_capabilities=desired_cap)
+    driver.quit()
