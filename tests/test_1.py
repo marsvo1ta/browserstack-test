@@ -20,3 +20,4 @@ driver = webdriver.Remote('http://hub-cloud.browserstack.com/wd/hub',desired_cap
 
 def test_1():
     driver.find_element(MobileBy.ID, 'com.velvot.android:id/onBoardingCreateBtn')
+    driver.quit()
