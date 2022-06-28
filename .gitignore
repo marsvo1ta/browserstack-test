@@ -13,7 +13,7 @@ Your env folder should be in the gitignore, but it doesn't have to be in your pr
 
 For example :
 
-*.json
+.vscode/settings.json
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
